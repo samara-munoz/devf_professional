@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border: 2px solid;
+    height: 15vh;
+}
+
+main {
+    border: 2px solid purple;
+    height: 70vh;
+}
+
+footer{
+    border: 2px solid purple;
+    height: 15vh;
+}

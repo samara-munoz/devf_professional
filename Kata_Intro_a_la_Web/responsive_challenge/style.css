@@ -1,0 +1,111 @@
+
+
+
+/* Mobile */
+@media only screen and (min-width: 320px) {
+
+    .box {
+        display: flex;
+        /* lo que afecta que este dentro del azul */
+        flex-direction: column; 
+        grid-gap: 20px 30px;
+        
+        
+    }
+    
+    .box1 {
+        background-color: rgb(33, 20, 220);
+        height: 100px;
+        width: 200px;
+    }
+
+
+        
+    .box2 {
+        background-color: rgb(189, 12, 12);
+        height: 100px;
+        width: 200px;
+    }
+
+        
+    .box3 {
+        background-color: rgb(137, 139, 141);
+        height: 100px;
+        width: 200px;
+    }
+
+
+
+}
+
+
+
+/* Tablet */
+@media only screen and (min-width: 768px ) {
+
+    .box {
+    display: flex;
+    flex-wrap: wrap;
+    /* lo que afecta que este dentro del azul */
+    flex-direction: row; 
+    
+    }
+
+
+    .box1 {
+        background-color: rgb(33, 20, 220);
+        height: 100px;
+        width: 200px;
+    }
+
+
+        
+    .box2 {
+        background-color: rgb(189, 12, 12);
+        height: 100px;
+        width: 200px;
+    }
+
+        
+    .box3 {
+        background-color: rgb(137, 139, 141);
+        height: 100px;
+        width: 200px;
+    }
+
+}
+
+/* Desktop */
+@media only screen and (max-width: 1024px ) {
+
+    .box {
+    display: flex;
+    /* lo que afecta que este dentro del azul */
+    flex-direction: row; 
+    flex-wrap: wrap;
+    }
+
+
+    .box1 {
+        background-color: rgb(33, 20, 220);
+        height: 100px;
+        width: 200px;
+    }
+
+
+        
+    .box2 {
+        background-color: rgb(189, 12, 12);
+        height: 100px;
+        width: 200px;
+    }
+
+        
+    .box3 {
+        background-color: rgb(137, 141, 138);
+        height: 100px;
+        width: 200px;
+    }
+
+}
+

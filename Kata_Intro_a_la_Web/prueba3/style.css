@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+    “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+}
+
+
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+
+
+
+.hover1:hover .mi-imagen{
+    filter: brightness(50%);
+
+}
+
+
+
+
+.hover1 {
+    /* border: green solid; */
+    width: 100%;
+    height:100%; 
+    display: inline-block;
+    padding-top: 20px;
+
+}
+
+
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.avatar img  {
+    float: left;
+    width: 20%;
+    filter: none;
+
+}
+
+
+.avatar h3:hover {
+    text-decoration: underline;
+} 
+
+
+	
+.zoom-in {cursor: zoom-in;}
+
+.pointer {cursor: pointer;}
+
+@media (max-width: 1500px) {
+    .container{
+        width: 100%;
+        columns:6;
+        column-gap: 15px;
+        padding: 15px;
+
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 1400px) {
+    .container{
+        width: 100%;
+        columns:5;
+        row-gap: 10px;
+        padding: 15px;
+
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 100%;
+        columns:4;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+
+
+}
+
+
+@media (max-width: 1000px) {
+    .container{
+        width: 100%;
+        columns:3;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+
+}
+
+
+
+@media (max-width: 750px) {
+    .container{
+        width: 100%;
+        columns:2;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+
+}
+
+
+@media (max-width: 600px) {
+    .container{
+        width: 100%;
+        columns:1;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+}
+
+
+
+

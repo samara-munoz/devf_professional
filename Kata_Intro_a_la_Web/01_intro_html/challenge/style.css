@@ -1,0 +1,30 @@
+* {
+    background-color: rgba(91, 70, 102, 0.884);
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(181, 194, 67);
+    font-size: 50px;
+}
+body {
+    color: rgb(245, 242, 250);
+    font-size: 30px;
+}
+
+img {
+    text-align: center;
+    width: 500px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

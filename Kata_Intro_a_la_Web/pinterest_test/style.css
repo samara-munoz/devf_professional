@@ -1,0 +1,254 @@
+main {
+
+    padding-top: 100px;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+    “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+}
+
+
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+
+
+.hover1:hover  .not-hover {
+    filter: brightness(50%);
+
+} 
+
+
+.container {
+    position: absolute;
+}
+
+.my-btn .my-btn1 {
+    border: red solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+
+.hover1 {
+    /* border: green solid; */
+    width: 100%;
+    height:100%; 
+    display: inline-block;
+    padding-top: 20px;
+
+}
+
+
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    filter: brightness(100%);
+}
+
+.avatar img  {
+    float: left;
+    width: 20%;
+    filter: none;
+
+}
+
+
+.avatar h3:hover {
+    text-decoration: underline;
+} 
+
+
+	
+.zoom-in {cursor: zoom-in;}
+
+.pointer {cursor: pointer;}
+
+
+
+@media (max-width: 1500px) {
+    .container{
+        width: 100%;
+        columns:6;
+        column-gap: 15px;
+        padding: 15px;
+
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+    .barra{
+    width: 75%;
+    }
+    .home {
+        font-size: 100%;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 1400px) {
+    .container{
+        width: 100%;
+        columns:5;
+        row-gap: 10px;
+        padding: 15px;
+
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+    .barra{
+    width: 75%;
+    }
+    
+    .home {
+    font-size: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 100%;
+        columns:4;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+    .nav {
+    width: 100%;
+    height: 8%;
+  }
+
+
+
+
+}
+
+
+@media (max-width: 1000px) {
+    .container{
+        width: 100%;
+        columns:3;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+    .nav {
+    width: 100%;
+    height: 8%;
+    }
+    .barra{
+        width: 68%;
+    }
+    .home {
+        font-size: 80%;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 750px) {
+    .container{
+        width: 100%;
+        columns:2;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+
+      .barra{
+    width: 58%;
+    }
+    .home {
+        height: 22%;
+        font-size: 70%;
+    }
+    button{
+        height: 42px;
+        width: 42px;
+    }
+
+
+
+}
+
+
+@media (max-width: 600px) {
+    .container{
+        width: 100%;
+        columns:1;
+        column-gap: 20px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px
+    }
+
+      .barra{
+    width: 54%;
+    }
+    .home {
+        height: 22%;
+        font-size: 68%;
+        border-radius: 16px;
+    }
+    button{
+        height: 34px;
+        width: 34px;
+    }
+
+
+}
+
+
+
+

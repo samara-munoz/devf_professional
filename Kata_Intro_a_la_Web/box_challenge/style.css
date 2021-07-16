@@ -1,0 +1,36 @@
+
+
+.cuadro1 {
+    height: 300px;
+    width: 400px;
+    background-color: rgba(255, 192, 203, 0.7);   
+    position: absolute; 
+}
+
+.cuadro2 {
+    margin-left: 300px;
+    top: 200px;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(111, 219, 134, 0.7); 
+    position: relative; 
+
+}
+
+.cuadro3 {
+    height: 200px;
+    width: 800px;
+    background-color: rgb(188, 111, 219, 0.7); 
+    position: absolute;
+    top: 500px;
+}
+
+.cuadro4 {
+    height: 600px;
+    width: 200px;
+    background-color: rgba(188, 209, 68, 0.7); 
+    position: relative;
+    margin-left: 700px;
+    bottom: 300px;
+
+}

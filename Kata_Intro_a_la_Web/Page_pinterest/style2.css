@@ -1,0 +1,54 @@
+body{
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+}
+img{
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.btn-news{
+    background: none;
+    border: none;
+    border-radius: 3em;
+    height: 3em;
+    width: 3em;
+}
+.btn-news:hover{
+    background: #e0dede;
+}
+.btn-save{
+    height: 3.5em;
+    border-radius: 2em;
+}
+.text{
+    font-weight: 400;
+    font-size: .8em;
+}
+.card-shadow{
+    border-radius: 2em;
+    box-shadow: #767676;
+    box-shadow: -3px 5px 10px -6px 
+}
+
+.avatar{
+    border-radius: 3em;
+    height: 3em;
+}
+.btn-avatar{
+    background: #ddd;
+    height: 3em;
+    border-radius: 3em;
+}
+.btn-avatar-h{
+    height: 4em;
+    font-size:14px;
+}
+footer{
+    height: 10vh;
+}

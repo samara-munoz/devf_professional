@@ -1,0 +1,42 @@
+/* TOP */
+.top {
+  word-spacing: 10px;
+  margin-left: 1250px;
+  margin-right: auto;
+
+}
+
+
+/* GOOGLE AREA */
+img {
+
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 112px;
+  padding-bottom: 20px;
+  width: 20%;
+
+}
+
+.form {
+  text-align: center;
+}
+
+#form-search { 
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+}
+
+.form #form-search {
+  padding: 0 8px;
+}
+
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;
+}

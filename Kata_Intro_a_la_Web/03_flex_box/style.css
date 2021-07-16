@@ -1,0 +1,37 @@
+.abuelo1 {
+    border: 2px solid rgb(194, 99, 115);
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* acomoda elementos en el eje x */
+    justify-content: center;
+        /* acomoda elementos en el eje y */
+    align-items: center;
+    
+
+}
+
+/* El porcetaje de los padres */
+.padre1 {
+    border: 2px solid rgb(13, 121, 88);
+    width: 35%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    /* acomoda elementos en el eje x */
+    justify-content: center;
+    /* acomoda elementos en el eje y */
+    row-gap: 10px;
+    align-items: center;
+}
+
+.hijo1 {
+    border: 2px solid rgb(187, 127, 36);
+    width: 25%;
+    height: 15%;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
